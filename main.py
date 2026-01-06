@@ -17,7 +17,7 @@ def calc():
     elif operation == "/":
         result = mathService.div_of_nums(input_num1, input_num2)
 
-    print(result, end="\n")
+    print("Результат: ", result, end="\n")
 
 
 if __name__ == "__main__":
